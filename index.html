@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <title>www.foodRestaurant.com</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="heading">Food Restaurant</h1>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="javascript:void(0)"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" >Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#title_grid">Food</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu_card">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="button">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+            
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="caro_images/c1 (2).jpg" style="height: 500px;width:1600px ;">
+                </div>
+                <div class="carousel-item">
+                    <img src="caro_images/c2 (2).jpg" style="height: 500px;width:1600px ;">
+                </div>
+                <div class="carousel-item">
+                    <img src="caro_images/c3 (2).jpg" style="height: 500px;width:1600px ;">
+                </div>
+                </div>
+            
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <h1 id="title_grid">Top Dishes</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 400px;">
+                        <img class="card-img-top" src="grid_images/g1.jpg" style="width: 400px;height: 400px;">
+                        <div class="card-body">
+                          <h4 class="card-title">Juice</h4>
+                          <p class="card-text">Watermelon Mint</p>
+                          <a id="juice" class="btn btn-primary" onclick="juice">order</a>
+                        </div>
+                      </div>
+                      
+                </div>
+                <div class="col">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="grid_images/g2.jpg" style="width: 400px;height: 400px;">
+                        <div class="card-body">
+                          <h4 class="card-title">Sharwma</h4>
+                          <p class="card-text">Mexicon Sharwma</p>
+                          <a id="button" class="btn btn-primary" onclick="order">Order</a>
+                        </div>
+                      </div>
+                      
+                </div>
+                <div class="col">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="grid_images/g3.jpg" style="width: 400px;height: 400px;">
+                        <div class="card-body">
+                          <h4 class="card-title">Fruit Salad</h4>
+                          <p class="card-text">Healthy Fruid Salad</p>
+                          <a href="#" class="btn btn-primary">Order</a>
+                        </div>
+                      </div>
+                      
+                </div>
+              <div class="row">
+                <div class="col">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="grid_images/g4.jpg" style="width: 400px;height: 400px;">
+                        <div class="card-body">
+                          <h4 class="card-title">Chicken Leg peice</h4>
+                          <p class="card-text">Fried chicken leg</p>
+                          <a href="#" class="btn btn-primary">order</a>
+                        </div>
+                      </div>
+                      
+                </div>
+                <div class="col">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="grid_images/g5.jpg" style="width: 400px;height: 400px;">
+                        <div class="card-body">
+                          <h4 class="card-title">Chicken</h4>
+                          <p class="card-text">Chicke manchurain</p>
+                          <a href="#" class="btn btn-primary">Order</a>
+                        </div>
+                      </div>
+                      
+                </div>
+                <div class="col">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="grid_images/g6.jpg" style="width: 400px;height: 400px;">
+                        <div class="card-body">
+                          <h4 class="card-title">Brabique</h4>
+                          <p class="card-text">Barbique Chicken</p>
+                          <a href="#" class="btn btn-primary">Order</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="grid_images/g7.jpg" style="width: 400px;height: 400px;">
+                            <div class="card-body">
+                              <h4 class="card-title">Chicken Gravy</h4>
+                              <p class="card-text">Chicken gravy with Naan</p>
+                              <a href="#" class="btn btn-primary">Order</a>
+                            </div>
+                          </div>
+                          
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="grid_images/g8.jpg" style="width: 400px;height: 400px;">
+                            <div class="card-body">
+                              <h4 class="card-title">Briyani</h4>
+                              <p class="card-text">Kerala briyani</p>
+                              <a href="#" class="btn btn-primary" onclick="buttonclick('Briyani')">Order</a>
+                            </div>
+                          </div>
+                          
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="grid_images/g9.jpg" style="width: 400px;height: 400px;">
+                            <div class="card-body">
+                              <h4 class="card-title">Butter Chicken</h4>
+                              <p class="card-text">delicious butter chicken</p>
+                              <a href="#" class="btn btn-primary" onclick="buttonclick('Butterchicken')">order</a>
+                            </div>
+                          </div>
+                          
+                    </div><br>
+    
+                <h1 id="menu_card" href="#">Menu</h1>
+                <div>
+                <img id="Menu" src="grid_images/menu1.jpg"><br>
+                </div>
+<div id="form">
+                <h1 id="contact">Contact Form</h1>
+<form id="contact_form" name="contact_form" method="post">
+    <div class="mb-5 row">
+        <div class="col">
+            <label>First Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+        </div>
+        <div class="col">
+            <label>Last Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+        </div>
+    </div>
+    <div class="mb-5 row">
+        <div class="col">
+            <label for="email_addr">Email address</label>
+            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                placeholder="name@example.com">
+        </div>
+        <div class="col">
+            <label for="phone_input">Phone</label>
+            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                placeholder="Phone">
+        </div>
+    </div>
+    <div class="mb-5">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary px-4 btn-lg">Post</button>
+</form>
+    </div>
+                
+                
+                          
+                    
+                
+
+
+    <script src="script.js">
+
+    </script>          
+
+  
+          
+    </body>
+</html>

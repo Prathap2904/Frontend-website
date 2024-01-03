@@ -1,0 +1,62 @@
+.row{
+    background-color:lightgray;
+}
+#title_grid{
+    text-align: center;
+    padding: 20px;
+    background-color: darkcyan;
+    margin: 10px;
+}
+#menu_card{
+    text-align: center;
+    padding: 25px;
+    background-color:darkcyan;
+    width: 100vw;
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+}
+body{
+    background-color:lightgray
+}
+#menu{
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+}
+#contact{
+    text-align: center;
+    padding: 25px;
+    background-color:darkcyan
+   
+}
+#form{
+    margin: 5px;
+    padding: 30px;
+    
+}
+.card{
+    margin: 25px;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+
+}
+#heading{
+    text-align: center;
+    margin: 20px;
+    background-color: darkcyan;
+}
+.col{
+    transition:w 3000;
+}
+.nav-link{
+    margin-left: 100px;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+}
